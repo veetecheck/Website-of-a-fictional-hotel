@@ -1,0 +1,9 @@
+$theme-colors: (
+    "primary": rgba($color: #b36e36, $alpha: .5),
+    "secondary": rgba($color: #e27e2b, $alpha: .7),
+    "success": #8d4f1c
+);
+
+
+
+@import "../bootstrap/scss/bootstrap.scss";
