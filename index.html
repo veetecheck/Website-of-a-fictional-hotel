@@ -17,8 +17,8 @@
         <div id="introduction" class="container border-rounded text-white text-center">
             <h1 class="display-1 mt-5 mb-0">Marionetta</h1>
             <h3 class="display-5 mb-5">HOTEL</h3>
-            <div id="quickBook">
-                <form class="p-3">
+            <div id="quickBook" class="p-3">
+                <form>
                     <h3 class="text-center mb-1">Quick booking</h3>
                     <div class="form-group">
                         <label for="name">Name: </label>
@@ -58,17 +58,16 @@
                             <input type="date" id="dateDp" class="form-control" placeholder="01/01/2021">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <input type="submit" value="Book now" class="btn btn-block btn-outline-light btn-lg">
-                        </div>
-                        <div class="col-md-6">
-                            <button id="virtual" class="btn btn-block btn-primary btn-lg" data-toggle="modal"
-                                data-target="#virtualTour">Virtual tour</button>
-                        </div>
-                    </div>
-
                 </form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="submit" value="Book now" class="btn btn-block btn-outline-light ">
+                    </div>
+                    <div class="col-md-6">
+                        <button id="virtual" class="btn btn-block btn-primary" data-toggle="modal"
+                            data-target="#virtualTour">Virtual tour</button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -258,7 +257,7 @@
                     <a href=""><i class="fab fa-twitter"></i></a>
                     <a href=""><i class="fab fa-instagram"></i></a>
                 </div>
-                <div class="col-md-4 text-left text-white-50">
+                <div class="col-md-4 text-left text-white-50 h5">
                     <p><i class="fas fa-phone"></i><br>+3585691111</p>
                     <p><i class="fas fa-envelope"></i><br>marionetta@hotels.de</p>
                     <p><i class="fas fa-home"></i></i><br>
@@ -279,7 +278,10 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/T7SIxJOoQd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/T7SIxJOoQd8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
