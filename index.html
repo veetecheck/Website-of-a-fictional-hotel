@@ -37,25 +37,18 @@
                                 preference)</span></label>
                         <input type="phone" id="phone" class="form-control" placeholder="+421606123456">
                     </div>
-                    <div class="form-row">
+                   <div class="form-row">
                         <div class="form-group col-md-4">
                             <label for="guests">Number of guests: </label>
-                            <select id="guests" class="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                                <option>6</option>
-                            </select>
+                            <input type="number" id="guests" class="form-control" value="1">
                         </div>
                         <div class="form-group col-md-4">
                             <label for="dateArr">Date of arrival: </label>
-                            <input type="date" id="dateArr" class="form-control mx-auto" placeholder="01/01/2021">
+                            <input type="date" id="dateArr" class="form-control" placeholder="01/01/2021">
                         </div>
                         <div class="form-group col-md-4">
                             <label for="dateDp">Date of departure: </label>
-                            <input type="date" id="dateDp" class="form-control mx-auto" placeholder="01/01/2021">
+                            <input type="date" id="dateDp" class="form-control" placeholder="01/01/2021">
                         </div>
                     </div>
                 </form>
@@ -133,63 +126,131 @@
         <div class="container text-center mt-3 p-3 container-bg">
             <h1 class="heading">Prices</h1>
             <div class="row m-2">
-                <div class="col-md-6 col-lg-3 p-3">
+                <div class="col-md-6 col-xl-3 p-3">
                     <div class="card text-dark">
-                        <img src="img/room1.jpg" class="card-image-top w-100 h-auto">
+                        <img src="img/room1.jpg" class="card-image-top">
                         <div class="card-body">
                             <h3 class="card-title text-success">Economy</h3>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">35€</li>
-                                <li class="list-group-item">ipsum</li>
-                                <li class="list-group-item">dolor</li>
-                            </ul>
+                            <table class="table">
+                                <tr>
+                                    <th>Pers.</th>
+                                    <th>Night</th>
+                                    <th>Week</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>35€</td>
+                                    <td>210€</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>40€</td>
+                                    <td>240€</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>45€</td>
+                                    <td>270€</td>
+                                </tr>
+                            </table>
                             <a href="#" class="btn btn-lg btn-success" data-toggle="tooltip" data-placement="bottom"
                                 title="Don't hesitate">BOOK</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 p-3">
+                <div class="col-md-6 col-xl-3 p-3">
                     <div class="card text-dark">
-                        <img src="img/room2.jpg" class="card-image-top w-100 h-auto">
+                        <img src="img/room2.jpg" class="card-image-top">
                         <div class="card-body">
                             <h3 class="card-title text-success">Standard</h3>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">50€</li>
-                                <li class="list-group-item">ipsum</li>
-                                <li class="list-group-item">dolor</li>
-                            </ul>
+                            <table class="table">
+                                <tr>
+                                    <th>Pers.</th>
+                                    <th>Night</th>
+                                    <th>Week</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>50€</td>
+                                    <td>300€</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>55€</td>
+                                    <td>330€</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>60€</td>
+                                    <td>360€</td>
+                                </tr>
+                            </table>
                             <a href="#" class="btn btn-lg btn-success" data-toggle="tooltip" data-placement="bottom"
                                 title="Don't hesitate">BOOK</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 p-3">
+                <div class="col-md-6 col-xl-3 p-3">
                     <div class="card text-dark">
-                        <img src="img/room3.jpg" class="card-image-top w-100 h-auto">
+                        <img src="img/room3.jpg" class="card-image-top">
                         <div class="card-body">
                             <h3 class="card-title text-success">Standard+</h3>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">65€</li>
-                                <li class="list-group-item">ipsum</li>
-                                <li class="list-group-item">dolor</li>
-                            </ul>
-                            <a href="#" class="btn btn-lg btn-success" data-container="body" data-toggle="popover"
-                                data-placement="bottom" data-content="Great!">BOOK</a>
+                            <table class="table">
+                                <tr>
+                                    <th>Pers.</th>
+                                    <th>Night</th>
+                                    <th>Week</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>65€</td>
+                                    <td>420€</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>70€</td>
+                                    <td>450€</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>75€</td>
+                                    <td>480€</td>
+                                </tr>
+                            </table>
+                            <a href="#" class="btn btn-lg btn-success" data-toggle="tooltip" data-placement="bottom"
+                                title="Don't hesitate">BOOK</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 p-3">
+                <div class="col-md-6 col-xl-3 p-3">
                     <div class="card text-dark">
-                        <img src="img/room4.jpg" class="card-image-top w-100 h-auto">
+                        <img src="img/room4.jpg" class="card-image-top">
                         <div class="card-body">
                             <h3 class="card-title text-success">Superior</h3>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">80€</li>
-                                <li class="list-group-item">ipsum</li>
-                                <li class="list-group-item">dolor</li>
-                            </ul>
-                            <a href="#" class="btn btn-lg btn-success" data-container="body" data-toggle="popover"
-                                data-placement="bottom" data-content="Great!">BOOK</a>
+                            <table class="table">
+                                <tr>
+                                    <th>Pers.</th>
+                                    <th>Night</th>
+                                    <th>Week</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>80€</td>
+                                    <td>540€</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>85€</td>
+                                    <td>570€</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>90€</td>
+                                    <td>600€</td>
+                                </tr>
+                            </table>
+                            <a href="#" class="btn btn-lg btn-success" data-toggle="tooltip" data-placement="bottom"
+                                title="Don't hesitate">BOOK</a>
                         </div>
                     </div>
                 </div>
